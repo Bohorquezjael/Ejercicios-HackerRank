@@ -18,5 +18,6 @@ public class SumaNumeros {
         }else if(y<0){
             y *= -1;
         }
+        System.out.println(x + y);
     }
 }

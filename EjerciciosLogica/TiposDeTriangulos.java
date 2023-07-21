@@ -17,7 +17,7 @@ public class TiposDeTriangulos {
     public static void comprobarLados(Double a,Double b,Double c){
         if(a ==b && a == c){
             System.out.print("El Triangulo es Equilatero ");
-        }else if(a == b || a == c){
+        }else if(a == b || b == c){
             System.out.print("El Triangulo es Isósceles ");
         }else{
             System.out.print("El Triangulo es Escaleno ");
