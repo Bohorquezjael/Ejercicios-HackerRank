@@ -8,6 +8,7 @@ static boolean flag;
         b = sc.nextInt();
         h = sc.nextInt();
         flag = true;
+        sc.close();
         try{
         if (b <= 0 || h <= 0){
             flag = false;
@@ -21,8 +22,6 @@ static boolean flag;
         
         if(flag){
             System.out.println(h*b);
-        }else{
-            
         }
     }
 }
