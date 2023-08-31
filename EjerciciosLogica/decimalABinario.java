@@ -32,6 +32,6 @@ public class decimalABinario {
             System.out.println("Debes ingresar un numero valido");
         }
         
-        
+        leer.close();
     }
 }
