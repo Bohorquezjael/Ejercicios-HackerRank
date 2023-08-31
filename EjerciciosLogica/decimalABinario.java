@@ -9,7 +9,7 @@ public class decimalABinario {
          Scanner leer=new Scanner(System.in);
         int num;
         int x;
-        ArrayList a=new ArrayList();       
+        ArrayList a =new ArrayList();       
         
         try{
         System.out.print("Ingrese numero natural: ");num=leer.nextInt();
