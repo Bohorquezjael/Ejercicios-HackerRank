@@ -8,7 +8,7 @@ public class binarioADecimal {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa el numero binario");
         
-
+        sc.close();
     }
     
 }
