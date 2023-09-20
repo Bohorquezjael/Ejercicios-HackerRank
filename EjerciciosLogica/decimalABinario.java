@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class decimalABinario {
     public static void main(String[] args) {
-         Scanner leer=new Scanner(System.in);
+        Scanner leer=new Scanner(System.in);
         int num;
         int x;
         ArrayList a =new ArrayList();       
