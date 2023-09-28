@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class InvertirArreglos {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-         int lerge = sc.nextInt();
+        int lerge = sc.nextInt();
         char palabra[] = new char[lerge];
         for (int i = 0; i<lerge; i++){
             char arreglo = sc.next().charAt(0);

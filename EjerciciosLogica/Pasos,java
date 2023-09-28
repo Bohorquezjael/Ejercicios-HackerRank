@@ -1,0 +1,39 @@
+
+public class Pasos{
+        
+    public static void main(String argu[]){
+  // Declaracion de los datos a usar
+         long_paso1;
+         long_paso2;
+         longitud;
+         avance_paso1=0;
+         avance_paso2=0;
+         pasos1 =1;
+         pasos2 =1;
+ //Lectura de datos introducidos por el teclado
+
+
+  // el paso 1 es considerado menor que la longitud del  paso 2
+        Scanner teclado = new Scanner(System.in);  
+        System.out.println(" Cms que da el paso 1? "); 
+        long_paso1 = teclado.nextInt();
+        System.out.println(" Cms que da el paso 2? "); 
+        long_paso2= teclado.nextInt();
+   // Intercambio de datos si la longitud del paso 1 es mayor a la longitud del paso 2
+        if(long_paso1>long_paso2){ 
+        }    
+
+
+
+        if(long_paso2 % long_paso1==0){  
+            longitud = long_paso2;
+            pasos1   = long_paso2/long_paso1;
+        }else{
+
+        } 
+
+        System.out.println(" Número de pasos 1: "+ pasos1+" Número de pasos 2 "+ pasos2 + " Longitud alcanzada "+ longitud/100.0 +" mts");  
+    
+}        
+    
+}
