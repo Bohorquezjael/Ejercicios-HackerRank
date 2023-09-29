@@ -1,4 +1,4 @@
-package EjerciciosLogica;
+
 import java.util.Scanner;
 
 public class TiposDeTriangulos {
@@ -7,9 +7,9 @@ public class TiposDeTriangulos {
         double ladoa, ladob, ladoc;
         System.out.println("Ingrese el primer lado del triangulo");
         ladoa = sc.nextDouble();
-         System.out.println("Ingrese el segundo lado del triangulo");
+        System.out.println("Ingrese el segundo lado del triangulo");
         ladob = sc.nextDouble();
-         System.out.println("Ingrese el tercer lado del triangulo");
+        System.out.println("Ingrese el tercer lado del triangulo");
         ladoc = sc.nextDouble();
         comprobarLados(ladoa,ladob,ladoc);
         sc.close();

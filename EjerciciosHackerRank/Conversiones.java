@@ -1,3 +1,4 @@
+package EjerciciosHackerRank;
 import java.util.Scanner;
 
 public class Conversiones {

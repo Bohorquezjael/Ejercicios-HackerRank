@@ -1,4 +1,3 @@
-package EjerciciosLogica;
 
 import java.util.Scanner;
 

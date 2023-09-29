@@ -1,10 +1,11 @@
-public class NumerosImpares{
+package EjerciciosHackerRank;
+public class NumerosPares {
     public static void main(String[] args) {
         for (int i = 1; i<=100; i++){
-            if(i % 2 == 1 ){
+            if(i % 2 == 0 ){
                 System.out.println(i);
             }else{
-             System.out.println("no es impar");
+             System.out.println("no es par");
             }
         }
     }
