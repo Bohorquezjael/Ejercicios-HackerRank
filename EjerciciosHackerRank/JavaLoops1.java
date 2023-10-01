@@ -1,3 +1,5 @@
+package EjerciciosHackerRank;
+
 import java.io.*;
 // import java.math.*;
 // import java.security.*;
@@ -14,7 +16,7 @@ import java.io.*;
 
 public class JavaLoops1 {
     public static void main(String[] args)throws IOException {
-         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Ingrese el numero del cual desea obtener su tabla de multiplicar");
         int N = Integer.parseInt(bufferedReader.readLine().trim());
 
@@ -22,7 +24,7 @@ public class JavaLoops1 {
         
         for (int i = 1;i<=10;i++){
            int result = N * i;
-         System.out.println(N + " x " + i + " = " + result);
+        System.out.println(N + " x " + i + " = " + result);
         }
     }
     
