@@ -1,3 +1,5 @@
+package EjerciciosClase;
+
 
 public class DescomponerNumero {
 

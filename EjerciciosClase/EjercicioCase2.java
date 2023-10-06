@@ -1,3 +1,5 @@
+package EjerciciosClase;
+
 import java.util.Scanner;
 
 public class EjercicioCase2{
@@ -30,9 +32,6 @@ public class EjercicioCase2{
             case 10, 11, 12:
             System.out.println("La mayor parte del tiempo es Otoño");
             break;
-
-            
-
 	}
 
 	
