@@ -4,20 +4,19 @@ import java.util.Scanner;
 
 public class BonitaPatria {
     public static void main(String[] args) {
-        //FIXME
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int ninios[] = new int[n];
         int conta = 1;
-        if (n < 40 && n > 0) {
+        if (n < 40 && n >= 1) {
+            double ninios[] = new double[n];
             for (int i = 0; i < ninios.length; i++) {
-                ninios[i] = sc.nextInt();
+                ninios[i] = sc.nextDouble();
             }
-            int mayor = ninios[0];
+            double mayor = ninios[0];
             for (int j = 0; j < ninios.length; j++) {
                 if (ninios[j] > mayor) {
                     mayor = ninios[j];
-                    conta++;
+                    conta = j +1;
                 }
             }
             System.out.println(conta);
