@@ -14,7 +14,7 @@ public class AgregandoTareas {
         for(int i = 0; i < items.length; i++){
             items[i] = sc.nextInt();
         }
-        
+        //revisar la documentacion --> metodo stream.count
         for(int i = 0; i < items.length; i++){
                 if(p > items[i]){
                     tareas ++;

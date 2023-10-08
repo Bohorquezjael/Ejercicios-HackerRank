@@ -1,7 +1,7 @@
 package EjerciciosOmegaUp;
 
 import java.util.Scanner;
-
+//FIXME
 public class AyudaAUnaTienda {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Pares {
 
     public static void main(String[] args){
-        //TODO
+        //FIXME
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int values[] = new int[n];

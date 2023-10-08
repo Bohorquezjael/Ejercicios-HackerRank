@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BonitaPatria {
     public static void main(String[] args) {
-        //TODO
+        //FIXME
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int ninios[] = new int[n];
