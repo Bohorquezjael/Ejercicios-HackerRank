@@ -1,6 +1,6 @@
 package EjerciciosClase;
 // import java.util.ArrayList;
-import java.util.InputMismatchException;
+// import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class decimalABinario {
@@ -10,7 +10,7 @@ public class decimalABinario {
         // int x;
         // ArrayList a =new ArrayList();       
         
-        try{
+        // try{
         System.out.print("Ingrese numero natural: ");num=leer.nextInt();
 
             while(num>=2){
@@ -27,9 +27,9 @@ public class decimalABinario {
         //     System.out.print(a.get(i));}
         System.out.println(" ");
 
-        }catch(InputMismatchException exception){
-            System.out.println("Debes ingresar un numero valido");
-        }
+        // }catch(InputMismatchException exception){
+        //     System.out.println("Debes ingresar un numero valido");
+        // }
         
         leer.close();
     }

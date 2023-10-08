@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class AgregandoTareas {
     public static void main(String[] args) {
-        //TODO
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
@@ -18,10 +17,10 @@ public class AgregandoTareas {
         
         for(int i = 0; i < items.length; i++){
                 if(p > items[i]){
-                    tareas = n - (i + 1);
+                    tareas ++;
                 }
         }
-        System.out.println(tareas);
+        System.out.println(n - tareas);
         sc.close();
     }
 }
