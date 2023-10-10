@@ -17,8 +17,6 @@ public class CuantosInstructoresHay {
 
 
 
-
-
         //! forma "ineficiente" con arraylist toma alrededor de 16s y 1.37MB
         // Scanner sc = new Scanner(System.in);
         // String lista = sc.nextLine();

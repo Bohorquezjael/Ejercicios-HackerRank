@@ -9,7 +9,7 @@ public class ConteosBasicos {
         int b = sc.nextInt();
 
         for(int i = a; i <= b; i++){
-            System.out.println(i);
+            System.out.printf("%d ", i);
         }
         sc.close();
     }

@@ -1,28 +1,30 @@
 package EjerciciosOmegaUp;
 
 import java.util.Scanner;
-//FIXME
+
 public class AyudaAUnaTienda {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        double values[] = new double[10];
-        for(int i = 0; i < values.length; i++){
-            values[i] = sc.nextDouble();
-
-            if(values[i] >= 500 && values[i] <= 1000){
-                values[i] *= .95;
-            }else if(values[i] >= 1001 && values[i] <= 7000){
-                values[i] *= .89;
-            }else if(values[i] >= 7001 && values[i] <= 15000){
-                values[i] *= .82;
-            }else if(values[i] > 15000){
-                values[i] *= .75;
+        //! tomar en cuenta si se deben hacer operaciones "complejas" o sencillas y no guardarlos a menos de ser necesario
+        //! si no hay numero numero definido de elementos no asumirlo y usar ciclos o metodos dependiendo el tipo de dato
+        try {
+            while (sc.hasNextDouble()) {
+                double valorLeido = Double.parseDouble(sc.nextLine());
+                if (valorLeido < 500) {
+                    //posibles mejoras codigo repetitivo
+                    System.out.printf("%.2f %n", valorLeido);
+                } else if (valorLeido >= 500 && valorLeido <= 1000) {
+                    System.out.printf("%.2f %n", valorLeido *= .95);
+                } else if (valorLeido >= 1001 && valorLeido <= 7000) {
+                    System.out.printf("%.2f %n", valorLeido *= .89);
+                } else if (valorLeido >= 7001 && valorLeido <= 15000) {
+                    System.out.printf("%.2f %n", valorLeido *= .82);
+                } else if (valorLeido > 15000) {
+                    System.out.printf("%.2f %n", valorLeido *= .75);
+                }
             }
-        }
+        } catch (NumberFormatException e) {
 
-        for(int i = 0; i < values.length; i++){
-            System.out.println(values[i]);
         }
         sc.close();
     }
