@@ -8,7 +8,7 @@ public class AyudaAUnaTienda {
         //! tomar en cuenta si se deben hacer operaciones "complejas" o sencillas y no guardarlos a menos de ser necesario
         //! si no hay numero numero definido de elementos no asumirlo y usar ciclos o metodos dependiendo el tipo de dato
         try {
-            while (sc.hasNextDouble()) {
+            while (sc.hasNextLine()) {
                 double valorLeido = Double.parseDouble(sc.nextLine());
                 if (valorLeido < 500) {
                     //posibles mejoras codigo repetitivo
