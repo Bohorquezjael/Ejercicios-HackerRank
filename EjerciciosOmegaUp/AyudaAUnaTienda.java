@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class AyudaAUnaTienda {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //! tomar en cuenta si se deben hacer operaciones "complejas" o sencillas y no guardarlos a menos de ser necesario
+        //! tomar en cuenta si se deben hacer operaciones "complejas" o sencillas y no guardarlos a menos de ser necesario pd.no es necesario imprimirlos al finalizar la entrada puede ser despues de cada uno
         //! si no hay numero numero definido de elementos no asumirlo y usar ciclos o metodos dependiendo el tipo de dato
         try {
             while (sc.hasNextLine()) {
