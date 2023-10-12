@@ -1,4 +1,4 @@
-package EjerciciosClase;
+
 
 public class NumeroBits{
     public static void main(String args[]){

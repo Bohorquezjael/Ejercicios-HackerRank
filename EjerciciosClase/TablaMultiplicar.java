@@ -1,6 +1,3 @@
-package EjerciciosClase;
-
-
 
 import java.util.Scanner;
 
