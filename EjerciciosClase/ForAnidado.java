@@ -7,9 +7,9 @@ public class ForAnidado {
         Scanner sc = new Scanner(System.in);
         int altura = sc.nextInt();
         sc.close();
-        
-        for(int i = 0; i < altura; i++){
-            for(int j = 0; j <= i ; j++){
+
+        for(int i = altura; i > 1; i--){
+            for(int j = 0; j > i  ; j++){
                 System.out.print("*");
             }
             System.out.println();
