@@ -1,6 +1,3 @@
-
-
-
 public class DescomponerNumero {
 
     //! como ya sabemos que las posiciones de los numeros no cambian es decir ya estan definidos usaremos el indice de su posicion 
