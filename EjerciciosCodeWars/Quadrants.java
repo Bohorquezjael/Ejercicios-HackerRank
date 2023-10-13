@@ -1,4 +1,4 @@
-package EjerciciosCodeWars;
+
 
 import java.util.Scanner;
 
