@@ -1,5 +1,5 @@
 /*Escriba un programa que reciba el numero de horas de trabajo 'x' y el sueldo 'y' por hora de un empleado. El programa debe calcular e imprimir el sueldo de empleado para esa semana. El trabajador recibe su sueldo (salario mínimo) normal por las primeras 40 horas; 1.5 veces su sueldo (una vez y media) por cada vez después de las primeras 40 (pero no más de 50); y 2 veces su sueldo normal (tiempo extra doble) por cada hora en exceso de 50 horas. */
-package EjerciciosOmegaUp;
+
 
 import java.util.Scanner;
 //FIXME

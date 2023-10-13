@@ -1,4 +1,4 @@
-package EjerciciosOmegaUp;
+
 
 import java.util.Scanner;
 

@@ -1,5 +1,3 @@
-package EjerciciosOmegaUp;
-
 import java.util.Scanner;
 
 public class ElPerritoQueQuiereUnHueso {

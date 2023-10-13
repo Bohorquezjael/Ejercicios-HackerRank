@@ -1,4 +1,4 @@
-package EjerciciosOmegaUp;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,6 @@ public class LosChicosDeLaOmi {
      * @param args
      */
     public static void main(String[] args) {
-        //TODO realizarlo con hasmap 
         Scanner sc = new Scanner(System.in);
         Map<Integer, String> integrante = new HashMap<>();
         int integrantes = sc.nextInt();
