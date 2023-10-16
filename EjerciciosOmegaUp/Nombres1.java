@@ -8,7 +8,10 @@ public class Nombres1 {
         //! recortar el string al momento de recibirlo ó solo mostrar la salida antes de un \t 
         //! usar un arreglo, usa de manera mas efectiva la memoria 
         for(int i = 0; i < personas.length; i++){
-            personas[i] = sc.nextLine();
+            personas[i] = sc.next().strip();
+        }
+        for(int i = 0; i < personas.length; i++){
+            System.out.println(personas[i]);
         }
         sc.close();
         }
