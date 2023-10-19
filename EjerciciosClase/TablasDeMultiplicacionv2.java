@@ -1,7 +1,6 @@
-
 import java.util.Scanner;
 
-public class TablaMultiplicar {
+public class TablasDeMultiplicacionv2 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
 
@@ -13,10 +12,11 @@ public class TablaMultiplicar {
 
 
         
-
+            System.out.println("");
             for(int i = numero; i <= tablas; i++){
-                for (int j = 2; j <= 10; j++){
-                    System.out.printf("%d x %d = %d \n", i, j, i * j);
+            
+                for (int j = 2; j <= tablas; j++){
+                    System.out.printf("%d ");
                 }
                 System.out.println();
             }

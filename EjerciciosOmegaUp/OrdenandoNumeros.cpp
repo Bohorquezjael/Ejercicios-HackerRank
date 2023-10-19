@@ -27,26 +27,8 @@ int main(){
     }else{
         menor = d;
     }
-
-    if((a > b && a < c) || (a < b && a > c)){
-        mayor2 = a;
-    }else if((b > a && b < c) || (b < a && b > c)){
-        mayor2 = b;
-    }else if((c > a && c < b) || (c < a && c > b)){
-        mayor2 = c;
-    }else{
-        mayor2 = d;
-    }
-
-    if((a < b && a > c) || (a > b && a < c)){
-        menor2 = a;
-    }else if((b < a && b > c) || (b > a && b < c)){
-        menor2 = b;
-    }else if((c < a && c > b) || (c > a && c < b)){
-        menor2 = c;
-    }else{
-        menor2 = d;
-    }
+    
+    
     cout << menor << menor2 << mayor2 << mayor <<endl;
     return 0;
 }
