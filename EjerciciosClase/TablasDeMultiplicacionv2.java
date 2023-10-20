@@ -2,26 +2,41 @@ import java.util.Scanner;
 
 public class TablasDeMultiplicacionv2 {
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ingrese un número entero: ");
-        int numero = sc.nextInt();
-        System.out.println("Ingresa hasta que numero quieras terminar");
-        int tablas = sc.nextInt();
-        sc.close();
+        System.out.print("Introduce el numero: ");
 
+        int numero = scanner.nextInt();
 
-        
-            System.out.println("");
-            for(int i = numero; i <= tablas; i++){
-            
-                for (int j = 2; j <= tablas; j++){
-                    System.out.printf("%d ");
-                }
-                System.out.println();
+        System.out.print("Introduce el limite: ");
+
+        int limite = scanner.nextInt();
+
+        System.out.println("Tabla: " + numero + " hasta el " + limite + ":");
+
+        System.out.print("\t");
+
+        for (int i = 1; i <= limite; i++) {
+
+            System.out.print(i + "\t");
+
+        }
+
+        System.out.println();
+
+        for (int i = 1; i <= limite; i++) {
+
+            System.out.print(i + "\t");
+
+            for (int j = 1; j <= limite; j++) {
+
+                System.out.print(i * j + "\t");
+
             }
-            
-        
+
+            System.out.println();
+        }
 
     }
+
 }
