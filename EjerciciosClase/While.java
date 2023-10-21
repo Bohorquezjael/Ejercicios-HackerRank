@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DibujarDiagonal {
+public class While {
     public static void main(String[] args) {
         while (true) {
             Scanner sc = new Scanner(System.in);
@@ -9,13 +9,12 @@ public class DibujarDiagonal {
             if (numero == 0) {
                 break;
             }
-            System.out.println("Ingresa el caracter que se imprimira");
-            String caractere = sc.next();
+            System.out.println("Ingresa el caracter que se imprimirá");
+            String caracter = sc.next();
             System.out.println(
-                    "Dame la posicion en la que quieras imprimirlo: \n 1 - vertical \n 2 - horizontal \n 3 -diagonal izq. \n 4 -diagonal der.");
+                    "Dame la posición en la que quieras imprimirlo: \n 1 - vertical \n 2 - horizontal \n 3 - diagonal izq. \n 4 - diagonal der.");
             int posicion = sc.nextInt();
-            dibujar(numero, caractere, posicion);
-            
+            dibujar(numero, caracter, posicion);
         }
     }
 
@@ -23,43 +22,57 @@ public class DibujarDiagonal {
         switch (posicion) {
             case 1:
                 System.out.println();
-                for (int i = 0; i < longitud; i++) {
+                int i = 0;
+                while (i < longitud) {
                     System.out.println(caracter);
+                    i++;
                 }
                 System.out.println();
                 break;
 
             case 2:
                 System.out.println();
-                for (int i = 1; i < longitud; i++) {
+                int j = 1;
+                while (j < longitud) {
                     System.out.print(caracter);
+                    j++;
                 }
                 System.out.println();
                 break;
 
-                case 3:
+            case 3:
                 System.out.println();
-                for (int i = 0; i < longitud; i++) {
-                    for (int j = 0; j < i; j++) {
-                        System.out.print(" ");
-                    }
+                int k = 0;
+                while (k < longitud) {
                     System.out.println(caracter);
+                    System.out.print(" ");
+                    int m = 0;
+                    while (m < k) {
+                        System.out.print(" ");
+                        m++;
+                    }
+                    k++;
                 }
+                System.out.println();
                 break;
 
-                case 4:
+            case 4:
                 System.out.println();
-                for (int i = 0; i < longitud; i++) {
-                    for (int j = longitud; j >= i; j--) {
+                int p = 0;
+                while (p < longitud) {
+                    int q = longitud;
+                    while (q >= p) {
                         System.out.print(" ");
+                        q--;
                     }
                     System.out.println(caracter);
+                    p++;
                 }
+                System.out.println();
                 break;
 
                 default:
                 System.out.println("Opcion no valida");
         }
-        
     }
 }
