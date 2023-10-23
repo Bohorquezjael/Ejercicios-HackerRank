@@ -7,7 +7,7 @@ public class CalculadoraDeSalario {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
-        double y = sc.nextInt();
+        double y = sc.nextDouble();
         CalcularHoras(x, y);
         sc.close();
     }
