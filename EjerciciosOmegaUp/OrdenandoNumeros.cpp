@@ -1,34 +1,55 @@
 #include <iostream>
 
 using namespace std;
-//FIXME
+//USAR CICLOOOS
 int main(){
     int a, b, c, d;
     cin >> a >> b >> c >> d;
 
-    int mayor, menor2, mayor2, menor;
-
-    if(a > b && a > c && a > d){
-        mayor = a;
-    }else if(b > a && b > c && b > d){
-        mayor = b;
-    }else if(c > a && c > b && c > d){
-        mayor = c;
-    }else{
-        mayor = d;
-    }
-
-    if(a < b && a < c && a < d){
-        menor = a;
-    }else if(b < a && b < c && b < d){
-        menor = b;
-    }else if(c < a && c < b && c < d){
-        menor = c;
-    }else{
-        menor = d;
-    }
     
-    
-    cout << menor << menor2 << mayor2 << mayor <<endl;
+        
+        if(a > b){
+            int temp = 0;
+            temp = b;
+            b = a;
+            a = temp;
+        }
+
+        if(b > c){
+            int temp = 0;
+            temp = c;
+            c = b;
+            b = temp;
+        }
+
+        if(c > d){
+            int temp = 0;
+            temp = d;
+            d = c;
+            c = temp;
+        }
+
+        if(a > b){
+            int temp = 0;
+            temp = b;
+            b = a;
+            a = temp;
+        }
+
+        if(b > c){
+            int temp = 0;
+            temp = c;
+            c = b;
+            b = temp;
+        }
+
+        if(a > b){
+            int temp = 0;
+            temp = b;
+            b = a;
+            a = temp;
+        }
+
+    cout << a << " " << b << " " << c << " " << d <<endl;
     return 0;
 }
