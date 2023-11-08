@@ -1,7 +1,7 @@
 
 
 import java.util.Scanner;
-
+//TODO
 public class Triangulos {
     public static void main(String[] args) {
         
