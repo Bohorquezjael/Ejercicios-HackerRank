@@ -8,12 +8,12 @@ public class occ10pnsf33id5886 {
         String cerradura = sc.nextLine();
         sc.close();
         boolean flag = true;
-
-        for(int i = 0; i < llave.length(); i++){
+        int i = 0;
+        while(i < llave.length() && flag){
             if(llave.charAt(i) == cerradura.charAt(i)){
                 flag = false;
-                break;
             }
+            i++;
         }
         System.out.println(flag ? "SI" : "NO");
     }

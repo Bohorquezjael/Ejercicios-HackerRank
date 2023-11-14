@@ -1,11 +1,9 @@
 import java.util.Scanner;
-//FIXME
 public class SeleccionDeEstudiantes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        long a = sc.nextInt(), b = sc.nextInt();
-        sc.close();
-        String str = Long.toString(a * b);
-        System.out.println(str.charAt(str.length()-1));
+        String numberA = sc.nextLine(), numberB = sc.nextLine();
+        int a = Character.getNumericValue(numberA.charAt(numberA.length()-1)), b = Character.getNumericValue(numberB.charAt(numberB.length()-1));
+        System.out.println((a * b) % 10);
     }
 }

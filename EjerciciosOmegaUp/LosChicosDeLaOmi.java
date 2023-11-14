@@ -5,9 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class LosChicosDeLaOmi {
-    /**
-     * @param args
-     */
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Map<Integer, String> integrante = new HashMap<>();
