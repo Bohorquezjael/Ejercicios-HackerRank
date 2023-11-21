@@ -6,6 +6,7 @@ public class Parentesis6097 {
         String linea = sc.nextLine();
         sc.close();
         int contadorAbre = 0, contadorCierra = 0;
+        //FIXME
         for (int i = 0; i < linea.length(); i++) {
             var a = linea.charAt(i) == '(' ? contadorAbre++ : contadorCierra++;
         }
