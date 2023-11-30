@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AbcDario6505 {
+public class AbcDario6205 {
     //FIXME
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

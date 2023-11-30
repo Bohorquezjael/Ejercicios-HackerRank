@@ -7,9 +7,9 @@ public class ConsonantesYVocales {
         int countConsonants = 0, countVowels = 0;
         sc.close();
         for (int i = 0; i < word.length(); i++){
-            if(word.charAt(i) == ){
+            // if(word.charAt(i) == ){
 
-            }
+            // }
         }
     }
 }
