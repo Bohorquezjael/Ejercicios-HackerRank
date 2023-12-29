@@ -8,23 +8,14 @@ public class DetectorDeLetras11396 {
     public static void main(String[] args) {
         // TODO
         Scanner sc = new Scanner(System.in);
-        int contador = 0;
         String vocales[] = { "A", "E", "I", "O", "U" };
         String letras = sc.nextLine();
-
-        for (String caracter : vocales) {
-            if(letras.contains(caracter)){
-                System.out.print("V");
-                contador++;
-            }
+        Scanner scPalabra = new Scanner(letras);
+        int contador = 0;
+        while(scPalabra.hasNext() && contador < 10){
+            .contains()
         }
         
-        // for (int i = 0; i < letras.length() && contador <= 10; i++) {
-        //     if (letras.contains(vocales)) {
-        //         System.out.print("V");
-        //         contador++;
-        //     }
-        // }
             
     }
 }
