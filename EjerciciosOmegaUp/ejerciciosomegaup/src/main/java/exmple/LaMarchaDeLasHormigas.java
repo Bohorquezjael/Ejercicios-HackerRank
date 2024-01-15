@@ -1,3 +1,5 @@
+package ejerciciosomegaup.src.main.java.exmple;
+
 import java.util.Scanner;
 
 public class LaMarchaDeLasHormigas {

@@ -5,17 +5,18 @@ import java.util.Scanner;
 public class LaMedidaDelTiempo1345 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int tiempo = sc.nextInt(), counter = 0;
-        sc.close();
-        if(tiempo == 0){
+        int tiempo = sc.nextInt();
+        int counter = 0;
+        if (tiempo == 0) {
             System.out.println("0 0 0 0 0");
-        }else{
-        int tiempos[] = {31557600, 86400, 3600, 60, 1};
-        while(tiempo > 0){
-            System.out.print(tiempo / tiempos[counter] + " ");
-            tiempo %= tiempos[counter];
-            counter++;
+        } else {
+            int tiempos[] = { 31536000, 86400, 3600, 60, 1 };
+            while (counter < 5) {
+                System.out.print(tiempo / tiempos[counter] + " ");
+                tiempo %= tiempos[counter];
+                counter++;
+            }
+            System.out.println();
         }
-    }
     }
 }
