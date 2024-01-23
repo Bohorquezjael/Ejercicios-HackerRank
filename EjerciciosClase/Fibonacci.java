@@ -8,7 +8,7 @@ public class Fibonacci {
         Scanner sc = new Scanner(System.in);
         int numberF = sc.nextInt();
         sc.close();
-        System.out.println("El numero de fibonnaci es: "+fiboOp(numberF));
+        System.out.println("El numero de fibonnaci es: "+fiboOp(numberF + 1));
         
     }
     public static int fiboOp(int number){
