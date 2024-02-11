@@ -6,7 +6,11 @@ public class ConversionDeBases19343 {
         int n = sc.nextInt(), base = sc.nextInt();
         String number = "";
         while (n != 0) {
+            if(n % base < 10){
             number += String.valueOf(n % base);
+            }else{
+                number += (char)(55 + n % base);
+            }
             n /= base;
         }
         System.out.println(new StringBuilder(number).reverse());
