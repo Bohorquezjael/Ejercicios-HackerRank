@@ -1,12 +1,11 @@
 import java.util.Scanner;
 
-public class DibujandoPiramide {
+public class DibujandoFiguras2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int base = sc.nextInt();
-        for(int i = 0; i < base; i++){
-            for (int j = 0; j < base; j++) {
-        //TODO
+        int n = sc.nextInt();
+        for(int i = n; i >= 1; i--){
+            for (int j = 0; j < i; j++) {
                 System.out.print("*");
             }
             System.out.println();
