@@ -10,7 +10,7 @@ public class NarrandoLaCarreraDeCaballos {
                 arr[i][j] = sc.nextInt();
             }
         }
-
+//TODO
         for (int i = 0; i < t; i++) {
             if (arr[i][0] == arr[i][1] && i != 0) {
                 System.out.println("Al minuto " + (i + 1) + " los caballos van empatados");

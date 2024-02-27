@@ -3,10 +3,6 @@ public class Reloj {
     private byte minutos;
     private byte horas;
 
-    // public Reloj(){
-    //     iniciarReloj();
-    // }{}
-
     public String iniciarReloj() {
         contarSegundos();
         return toString();
