@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-//USAR CICLOOOS
+//USAR CICLOS
 int main(){
     int a, b, c, d;
     cin >> a >> b >> c >> d;
